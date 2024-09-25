@@ -48,7 +48,7 @@ jobs:
 
       #
       # Publishes the Docker image to the container registry.
-      #
+      # Trigger
       - name: Publish
         run: ./scripts/cd/push-image.sh
 
