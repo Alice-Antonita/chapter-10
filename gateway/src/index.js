@@ -110,5 +110,4 @@ main()
     .catch(err => {
         console.error("Microservice failed to start.");
         console.error(err && err.stack || err);
-        console.log(“Hello world”);
     });
